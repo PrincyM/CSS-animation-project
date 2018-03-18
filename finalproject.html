@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>My CSS animation</title>
+  <link rel="stylesheet" type="text/css" href="finalproject.css" />
+</head>
+<body>
+  <main>
+    <div id="titles"> <!-- beginning of scroll text -->
+      <div id="titlecontent">
+          <h1>Welcome to my CSS Animation</h1>
+          <p>Here, I have displayed CSS animation through the use of webkit @keyframes
+            and created a piano using CSS and other moving elements on the screen.
+            I have used an audio file that plays Beethoven music when the page loads
+            in the background.
+          </p>
+          <h2>~~Piano~~</h2>
+          <p>I used the CSS Piano example by 'Pure CSS3 Piano by Taufik Nurrohman'
+          that can be found at "http://cssdeck.com/labs/pure-css3-piano" to create
+        this smaller version of the piano. I used a unordered list to make this.On
+         click of the piano key, I have added box shadows, linear gradient and
+        z index to look like it's pressed.</p>
+         <h2>~~Text scroll~~</h2>
+         <p>I used transform properties perspective and rotateX as well as
+           pseudo elements to create this.
+         </p>
+           <h2>~~Moving heart elements~~</h2>
+           <p>I used the Shapes of CSS example on "https://css-tricks.com/examples/ShapesOfCSS/"
+             to create this heart and animated the hearts to move horizontally using webkit-keyframes
+             and changed the opacity to make it look realistic.
+           </p>
+          <h2>CSS Animation by:Princy Mascarenhas</h2>
+          <p>Student Number: N01258381</p>
+          <p>Section: A</p>
+          <h2>~~Thank You~~</h2>
+      </div> <!-- end of titlecontent div -->
+   </div> <!-- end of titles div -->
+   <audio id="beethoven" autoplay controls>
+     <source src="music/beethoven-piano.mp3" type="audio/mpeg">
+       Your browser does not support the audio file
+   </audio>
+
+   <ul class="set">   <!-- piano section -->
+     <li class="white b"></li>
+     <li class="black as"></li>
+     <li class="white a"></li>
+     <li class="black gs"></li>
+     <li class="white g"></li>
+     <li class="black fs"></li>
+     <li class="white f"></li>
+     <li class="white e"></li>
+       <li class="black ds"></li>
+       <li class="white d"></li>
+       <li class="black cs"></li>
+       <li class="white c"></li>
+   </ul>
+</main> <!-- end of main -->
+   <div id="hearts"> <!-- hearts section -->
+      <div class="heart x1"></div>
+      <div class="heart x2"></div>
+      <div class="heart x3"></div>
+      <div class="heart x4"></div>
+      <div class="heart x5"></div>
+  </div> <!-- end of hearts section -->
+</body>
+</html>
